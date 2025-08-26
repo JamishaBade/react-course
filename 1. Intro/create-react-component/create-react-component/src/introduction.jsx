@@ -1,4 +1,4 @@
-function introduction() {
+function Introduction() {
   return (
     <div>
       <h2>My name is Jay.</h2>
