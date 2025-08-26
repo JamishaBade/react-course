@@ -1,0 +1,22 @@
+/* App.css */
+.container {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #003771;
+  text-align: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 300%;
+}
+p{
+  text-align: center;
+  font-size: 200%;
+  color:rgb(13, 0, 62);
+}
+center{
+  margin-top: 250px;
+    /* moves element down */
+  
+}
