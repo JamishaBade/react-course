@@ -142,3 +142,7 @@ function Counter() {
 ```
 
 ---
+
+## Bootstrap
+
+![My Image](images/bootstrap.jpeg)
