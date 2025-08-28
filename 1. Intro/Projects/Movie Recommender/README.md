@@ -14,10 +14,12 @@ Fragments: Used to avoid extra HTML elements
 
 CSS Modules: Scoped styling with hover effects
 
-Bootstrap: Styling for buttons and responsive layout
+Bootstrap: Styling for buttons and responsive
+
+# Screenshots of the project
 
 Movie View:
 ![Movies View](./image/image1.png)
 
 Book View:
-![Books View](./image/books-view.png)
+![Books View](./image/image2.png)
