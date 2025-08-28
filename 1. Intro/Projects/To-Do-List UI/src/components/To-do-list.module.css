@@ -1,0 +1,18 @@
+.itemsContainer {
+  max-width: 1000px;
+  border-radius: 15px;
+  border: 2px dotted black;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+/* Optional: hover effect for the container */
+.itemsContainer>div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(195, 195, 195, 0.4);
+}
