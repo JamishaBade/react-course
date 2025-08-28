@@ -1,12 +1,18 @@
-# React + Vite
+# NYC CLOCK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern digital clock displaying the current time and date in New York City with a visually appealing animated design using React and CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live time and date updated every second.
 
-## Expanding the ESLint configuration
+- 12-hour format with AM/PM.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Animated heading and container with floating effect.
+
+- Neon-style blinking colons for the clock.
+
+- Responsive design for mobile and desktop.
+
+- Built using React, useState, useEffect, and CSS animations.
+  ![clock image](./image/clock.png)
