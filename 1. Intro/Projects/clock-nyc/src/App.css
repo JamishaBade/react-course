@@ -1,22 +1,67 @@
-/* App.css */
-.container {
-  background-color: #f8f9fa;
+/* Body background */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top left, #1c1c2e, #2b2b3d, #3a3a5c);
+  color: #e0e0f0;
 }
 
-h1 {
-  color: #003771;
+/* Main clock container */
+center {
+  margin-top:200px;
+  background: rgba(30, 30, 50, 0.85);
+  border: 5px solid #8ab6d6;
+  backdrop-filter: blur(25px);
+  border-radius: 30px;
+  padding: 3rem 5rem;
   text-align: center;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Heading style */
+.clock-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  background: linear-gradient(270deg, #6dd5ed, #2193b0, #6dd5ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 8px rgba(33, 147, 176, 0.7), 0 0 15px rgba(109, 213, 237, 0.6);
+  animation: gradientMove 4s ease infinite, glowPulse 2s ease-in-out infinite;
+  margin-bottom: 1rem;
+  background-size: 300% 300%;
+}
+
+/* Slogan style */
+.clock-slogan {
+  font-size: 1.4rem;
+  color: rgba(224, 224, 240, 0.9);
+  margin-bottom: 2rem;
+  text-shadow: 0 0 6px rgba(224, 224, 240, 0.3);
+  animation: fadeIn 2s ease-in-out infinite alternate;
+  min-height: 10px;
+}
+
+/* Current time style */
+.current-time p {
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+  padding: 0.6rem 1rem;
+  border-radius: 15px;
+  background: rgba(224, 224, 240, 0.08);
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  animation: pulse 2s infinite;
+}
+
+/* Neon blinking colon */
+.current-time p span.colon {
+  color: #ed786d;
   font-weight: bold;
-  font-size: 300%;
+  animation: blink 1s step-start infinite;
 }
-p{
-  text-align: center;
-  font-size: 200%;
-  color:rgb(13, 0, 62);
-}
-center{
-  margin-top: 250px;
-    /* moves element down */
-  
-}
+
+/* Button, hover, and animations remain the same... */
