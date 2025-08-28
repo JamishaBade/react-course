@@ -145,4 +145,17 @@ function Counter() {
 
 ## Bootstrap
 
-![My Image](images/bootstrap.jpeg)
+- Bootstrap is a popular front-end framework used to build reponsive websites easily.
+- It provides predefined HTML, CSS and JS components making web developer's life much easier.
+  ![My Image](images/bootstrap.jpeg)
+
+## Fragments
+
+Fragments allow grouping of multiple elements without creating an extra DOM node. This makes DOM cleaner
+
+```
+Syntax is:
+<></>
+or
+<React.Fragment></React.Fragment>
+```
