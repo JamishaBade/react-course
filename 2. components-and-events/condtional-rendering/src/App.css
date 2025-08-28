@@ -1,0 +1,38 @@
+/* Full screen container centered */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  /* stack children vertically */
+  justify-content: center;
+  /* vertical centering */
+  align-items: center;
+  /* horizontal centering */
+  min-height: 100vh;
+  /* full viewport height */
+  gap: 30px;
+  /* space between components */
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  /* nice gradient */
+  color: #fff;
+  /* white text */
+  text-align: center;
+  /* center headings and text */
+  padding: 20px;
+}
+
+/* Optional: make all buttons look consistent */
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
