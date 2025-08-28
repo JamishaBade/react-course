@@ -1,0 +1,23 @@
+.input{
+  width: 200px;
+  height: 30px;
+}
+.app-container {
+
+  width: 240px;
+  border: 5px solid black;
+  color: azure;
+  background: gray;
+
+    display: flex;
+      flex-direction: column;
+      /* stack children vertically */
+      align-items: center;
+      /* center horizontally */
+      justify-content: center;
+      margin: auto;
+}
+
+.button-container {
+  margin-top: 12px;
+}
